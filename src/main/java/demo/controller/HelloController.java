@@ -17,4 +17,8 @@ public class HelloController {
     public String message() {
         return message.get();
     }
+    @GetMapping("/index")
+    public String getHome(){
+    	return "index";
+    }
 }
