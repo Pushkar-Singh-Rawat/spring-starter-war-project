@@ -10,9 +10,7 @@ public class Spring_main extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		// TODO Auto-generated method stub
-		// updated
-
+	
 		return application.sources(Spring_main.class);
 	}
 	public static void main(String[] args) {
